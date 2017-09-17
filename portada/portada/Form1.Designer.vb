@@ -30,14 +30,13 @@ Partial Class Form1
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Ingresar = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(-3, 0)
+        Me.PictureBox1.Location = New System.Drawing.Point(-5, 12)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(466, 340)
         Me.PictureBox1.TabIndex = 0
@@ -97,28 +96,18 @@ Partial Class Form1
         '
         'Ingresar
         '
-        Me.Ingresar.Location = New System.Drawing.Point(108, 231)
+        Me.Ingresar.Location = New System.Drawing.Point(127, 221)
         Me.Ingresar.Name = "Ingresar"
         Me.Ingresar.Size = New System.Drawing.Size(75, 23)
         Me.Ingresar.TabIndex = 6
         Me.Ingresar.Text = "Ingresar"
         Me.Ingresar.UseVisualStyleBackColor = True
         '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(267, 231)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 7
-        Me.Button2.Text = "Salir"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(462, 340)
-        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Ingresar)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
@@ -140,6 +129,5 @@ Partial Class Form1
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Ingresar As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
 
 End Class
